@@ -62,8 +62,8 @@ document.getElementById('new-ramen').addEventListener('submit', addNewRamen);
         document.querySelector('.name').textContent = ramen.name;
         document.querySelector('.restaurant').textContent = ramen.restaurant;
 
-        ratingDisplay.textContent = ramen.rating;
-        commentDisplay.textContent = ramen.comment;
+        ratingDisplay.textContent = ramen.rating; //<--const is at the top in order to grab this item
+        commentDisplay.textContent = ramen.comment; //<--const is up top in order to grab this item
         
     }
 
