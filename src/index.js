@@ -38,7 +38,7 @@ document.getElementById('new-ramen').addEventListener('submit', addNewRamen);
     //What does our data look like (HINT check the url http:..localhost:300/ramens) --> It is an [] <-- that is an array!
     function addRamenToPage(ramen) {
         const ramenImage = document.createElement('img');
-        ramenImage.src = ramen.image; //<--where the image comes from
+        ramenImage.src = ramen.image; //<--where the image comes from this is why it's .image -->"image": "./assets/ramen/shoyu.jpg" that's where it is coming from.
 
         ramenImage.addEventListener('click', () => {
             //console.log(ramen)
