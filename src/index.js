@@ -24,7 +24,7 @@ fetch(ramenAPI)
     .then(displayRamenImages); // you can also put a .catch(console.err);
 //            ^^ this is being passed to the .then as a callback
 
-document.getElementById('new-ramen').addEventListener('submit', addNewRamen); //<-- part of #3
+document.getElementById('new-ramen').addEventListener('submit', addNewRamen); //<-- first part of #3
 
     function displayRamenImages(ramenArray) {
         //console.log(ramenArray) //^^ that is an array [] of ramen objects {} the json goes in there
