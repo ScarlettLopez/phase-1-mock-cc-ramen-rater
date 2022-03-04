@@ -47,7 +47,7 @@ document.getElementById('new-ramen').addEventListener('submit', addNewRamen);
 
 
 
-        ramenMenu.append(ramenImage); //<-- .append (method) means to stick/place on the page
+        ramenMenu.append(ramenImage); //<-- .append (method) means to stick/place on the page for organization do this after adding eventListener
 
         //console.log(ramen.image) //<-- property on each object 
             //                        ex  "image": "./assets/ramen/shoyu.jpg",
