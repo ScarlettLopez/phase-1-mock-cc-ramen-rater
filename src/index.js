@@ -106,7 +106,7 @@ function addNewRamen(event) {
         comment: event.target['new-comment'].value,
     };
 
-    addRamenToPage(newRamen);
+    addRamenToPage(newRamen); //<--you can do this because we already created a function that displays the image value
 }
 
 //since they have names we can use . notation to grab them (dot notation)
